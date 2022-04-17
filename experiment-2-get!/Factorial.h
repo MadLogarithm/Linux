@@ -25,7 +25,9 @@ void GetFact(int n){
 	}
 	int cnt=0;
 	for(int i=1;ans[i]!=-1;i++) cnt++;
+	cout<<n<<"! = ";
 	for(int i=cnt;i>0;i--) cout<<ans[i];
+	cout<<endl;
 	return;
 }
 #endif //_FACTORIAL_H
